@@ -151,7 +151,7 @@ public class Solution {
         }
         int data = 0;
         for(int i = arr.size() -1 ; i>=0;i--) {
-            data = arr.get(arr.size() -positionFromTail -1);
+            data = arr.get(arr.size() - positionFromTail -1);
         }
         return data;
     }
@@ -171,14 +171,14 @@ public class Solution {
         int new_data = scanner.nextInt();
         head = list.Inserttail(head, new_data);
         list.printList(head);
-        */
+         */
 
         //BT3
         /*
         int new_head = scanner.nextInt();
         head = list.Inserthead(new_head);
         list.printList(head);
-         */
+        */
 
         //BT4
         /*
@@ -206,7 +206,7 @@ public class Solution {
         /*
         list.reverse(head);
         list.printList(head);
-         */
+        */
 
         //BT8
         /*
@@ -220,7 +220,18 @@ public class Solution {
         */
 
         //BT9
-        //thầy nên đóng phần insert để dùng được test này ạ.
+        /*
+        int count_a = scanner.nextInt();
+        for (int i = 0; i < count_a; i++) {
+            int data = scanner.nextInt();
+            a = list.Inserttail(a, data);
+        }
+        b = list.mergeLists(a,head);
+        list.printList(b);
+        */
+
+        //BT10
+        //thầy nên đóng phần insert ở đầu để dùng được test này ạ.
         /*
         int P_time = scanner.nextInt();
         int n = 0;
@@ -233,18 +244,8 @@ public class Solution {
             int positionFromTail = scanner.nextInt();
             System.out.println(getNode(b, positionFromTail));
             n++;
-        }
-        */
-
-        //BT10
-        /*
-        int count_a = scanner.nextInt();
-        for (int i = 0; i < count_a; i++) {
-            int data = scanner.nextInt();
-            a = list.Inserttail(a, data);
-        }
-        b = list.mergeLists(a,head);
-        list.printList(b);
+         }
          */
+
     }
 }
