@@ -150,9 +150,9 @@ public class Solution {
             tail = tail.next;
         }
         int data = 0;
-        for(int i = arr.size() -1 ; i>=0;i--) {
+        //for(int i = arr.size() -1 ; i>=0;i--) {
             data = arr.get(arr.size() - positionFromTail -1);
-        }
+       // }
         return data;
     }
     public static void main(String[] args) {
